@@ -122,6 +122,7 @@ export class PaymentListComponent extends BaseListComponent<IPayment> implements
         label: 'payment Date',
         sort: true,
         filter: true,
+        type: listColumnType.Date,
       },
       {
         column: 'paymentId',

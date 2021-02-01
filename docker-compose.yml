@@ -21,6 +21,8 @@ services:
       - '5556:5556'
     networks:
       - samplenet
+    links:
+      - 'db:db'
   api:
     build:
       context: .

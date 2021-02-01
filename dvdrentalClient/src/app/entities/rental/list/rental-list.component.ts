@@ -114,6 +114,7 @@ export class RentalListComponent extends BaseListComponent<IRental> implements O
         label: 'rental Date',
         sort: true,
         filter: true,
+        type: listColumnType.Date,
       },
       {
         column: 'rentalId',
@@ -129,6 +130,7 @@ export class RentalListComponent extends BaseListComponent<IRental> implements O
         label: 'return Date',
         sort: true,
         filter: true,
+        type: listColumnType.Date,
       },
       {
         column: 'customerDescriptiveField',
